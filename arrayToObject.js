@@ -8,7 +8,7 @@ let obj= arr.reduce(
 console.log(obj)
 
 
-// efficient method
+// efficient methodd
  objRun= {...arr}
 console.log(objRun)
 
