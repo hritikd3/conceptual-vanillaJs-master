@@ -6,5 +6,9 @@ function outer() {
   }
   return inner;
 }
+// outer()();   this is like how we calling inner and outer function 
+// another way 
+// const newInner= outer()
+// newInner("hey");
 
-outer()("hello");
+outer()("hesllo");
