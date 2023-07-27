@@ -11,4 +11,4 @@ function outer() {
 // const newInner= outer()
 // newInner("hey");
 
-outer()("hesllo");
+outer()("hello");
