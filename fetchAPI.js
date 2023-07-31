@@ -1,12 +1,12 @@
 
 //async javascript behaviour when we fetch the api , we dont know when response get laoded
-function randomUser(){
+const randomUser=()=>{
     fetch("https://randomuser.me/api/")
-    .then(function(raw){
+    .then((raw)=>{
         
         return raw.json();
     })
-    .then(function(data){
+    .then((data)=>{
         console.log(data)
     })
 }
